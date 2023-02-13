@@ -1,0 +1,105 @@
+/* under 600px */
+/* Header */
+header .nav {
+  flex-direction: column;
+  text-align: center;
+}
+/* vp */
+.vp-container {
+  width: 90%;
+}
+.vp-container h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.vp-container p {
+  font-size: 1rem;
+}
+/* nos offers */
+.nos-offers {
+  padding: 50px 0;
+}
+.nos-offers-container h1 {
+  margin-bottom: 50px;
+  color: #444;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.offer-list {
+  display: flex;
+  flex-direction: column;
+}
+.offer {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.offer .seperateur {
+  width: 0%;
+  height: 0px;
+  margin: none;
+}
+.offer p {
+  margin: 8px;
+}
+.offer .prise {
+  padding: 10px;
+  background-color: gainsboro;
+  box-shadow: 3px 3px 8px 0px #c1c1c1;
+
+  margin: 18px auto;
+}
+/* notre equipe */
+.equipe-container {
+  display: flex;
+  flex-direction: column;
+}
+.equipe-container img {
+  width: 100%;
+}
+.equipe-container div {
+  text-align: center;
+}
+.equipe-container div h2,
+p {
+  margin: 10px;
+}
+.equipe-container div p {
+  line-height: 1.3rem;
+}
+.equipe-container div h2 {
+  font-size: 1rem;
+}
+.equipe-container div p {
+  font-size: 1rem;
+}
+/* comment */
+.comment {
+  padding: 50px 0;
+}
+.comment h2 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+.comment-container {
+  width: 90%;
+}
+/* contacter */
+.contacter {
+  height: 500px;
+}
+form {
+  width: 80%;
+}
+form h1 {
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+}
+.btn {
+  padding: 10px 15px;
+
+  font-size: 1rem;
+
+  margin-top: 30px;
+}
